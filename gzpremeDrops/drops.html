@@ -1,0 +1,79 @@
+<!DOCTYPE>
+
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Gzpreme</title>
+		<link rel="stylesheet" type="text/css" href="../gzpreme.css">
+	</head>
+
+
+	
+	<body>
+		<center>
+
+			<!-- CREATES IMAGE IN BACKGROUND WITH AN OPACITY (SEE .image class) -->
+			<div class="image"> </div>
+
+			
+			<!-- CREATES TITLE WITH HYPERLINK TO REFRESH PAGE -->
+			<h1 class="mainTitle">
+				<a class="noUnderlineHype" href="javascript:history.go(0)">
+  					DROPS
+      			</a>
+  			</h1>	
+
+
+
+  			<!-- MENU -->
+			<div class="menu" id="mainMenu"></div>
+
+
+
+			<!-- INPUT YEAR & SEASON -->
+			<div class="bodyText">
+				
+			   	<!-- ASKS USER TO INPUT YEAR OF THE DROP THEY WANT TO EXPLORE -->
+			   	Please enter the <b><i style="color:purple">YEAR</i></b> &nbsp;and choose the <b><i style="color:purple">SEASON</i></b> &nbsp;of the drop you would like to explore: &nbsp; <!-- non breaking space -->
+
+
+
+			   	<div class="sideComment"> Please enter a year from 2016-present. </div>
+			    
+			   																		 <!-- this is where the QUERY STRING has been formed. ( ../
+			   																		 	  destination.html?year=2016 ) -->
+			   																		 <!-- YEAR is the name attribute of the text field; 
+			   																		 	  2016 is the value entered into the text field -->
+			    <br> 
+
+
+
+			    <label for="year">Year:</label>
+			    <input type="number" id="year" required> 
+				<div class="errorText" style="opacity: .675" id="errorYear"> </div>					<!-- PRINTS ERROR -->
+
+
+
+				<br> <br>
+			    <!-- AND CHOICE B/W SS & FW  --> 
+			    <div class="errorText" style="opacity: .675" id="errorSeason"> </div> <br>			<!-- PRINTS ERROR -->
+			    <label for="season">Season:</label>
+			    <input type="radio" name="season" id="SS" value="SS" checked> SPRING/SUMMER <br>
+					&nbsp; &nbsp; &nbsp; &nbsp;<input type="radio" name="season" id="FW" value="FW"> FALL/WINTER <br>
+
+
+				<br />
+				<!-- "Submit" is the text in the submit box -->
+				<!-- <input type="submit" value="Submit"> -->
+
+				<button onclick="checkDate()">SUBMIT</button>
+
+			</div>
+		</center>
+
+
+		<script type="text/javascript" src="../gzpremeJSFuncs/wrongDateFunc.js"> </script>
+		<script type="text/javascript" src="../gzpremeMenu.js"></script>
+	</body>
+
+</html>

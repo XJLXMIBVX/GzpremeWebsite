@@ -1,0 +1,190 @@
+
+.image { 
+	position: fixed;
+	background-image: url(file:///Users/OJeeeezy/Desktop/MyStuff/Webpages/gzpremeHomePage/CrooksJewelry.jpg);
+	background-repeat: repeat-x;
+   	width: 100%;			/*makes the image fit the entire screen*/
+   	height: 100%;
+   	opacity: .2;			/*makes the background image transparent*/
+}
+
+.mainTitle {
+	position: absolute;
+	top: 150px; 		    /*places image 200px down from the top*/
+	width: 100%;            /*centers the text*/
+
+    font: bold 45px/45px Helvetica, Sans-Serif; 
+    font-weight: bold;
+    letter-spacing: -6.5px;  
+}
+
+.menu {
+	position: absolute;
+	top: 225px;
+	width: 100%;
+
+	font: 18px Sans-Serif;
+	text-transform: lowercase;
+}
+
+/*a.menu:visited {
+	color: green;
+}
+
+a.menu:hover {
+	color: blue;
+}
+
+a.menu:active {
+	color: red;
+}*/
+
+
+
+
+
+
+
+
+
+
+
+.bodyText {
+	position: relative; ;
+	top: 280px;
+	width: 100%;
+	font: 18px Sans-Serif;
+}
+
+br {
+   display: block;
+   margin: 10px 0;
+}
+
+a.menuHover:hover {
+	color:grey;
+	font-style: italic;
+}
+
+
+p {
+	font: 18px Sans-Serif; 
+	color:white;
+}
+
+.errorText {
+	font: 13px Arial; 
+	color:red;
+	display: inline;
+}
+
+.sideComment {
+	font-size: 13; 
+	color:red; 
+	opacity: .675;
+}
+
+
+
+
+/* BUTTONS */
+
+a.sizeButton:link, a.sizeButton:visited {
+	font: bold 14px Helvetica, Sans-Serif; 
+    /*letter-spacing: -6.5px;  */
+	transition: all 0.3s ease;
+
+    background-color: purple;
+    color: black;
+    padding: 30px 30px;
+    margin: 3px 1px;
+    text-align: center;
+    display: inline-block;
+    opacity: .5
+}
+a.sizeButton:hover, a.sizeButton:active {
+    font-size: 10px;
+    letter-spacing: 3.5px;
+}
+
+
+
+a.colorButton:link, a.colorButton:visited {
+	font: bold 11px Helvetica, Sans-Serif; 
+    /*letter-spacing: -6.5px;  */
+	transition: all 0.3s ease;
+
+    color: black;
+    padding: 40px 40px;
+    text-align: center;
+    display: inline-block;
+    opacity: .675
+}
+a.colorButton:hover, a.colorButton:active {
+    font-size: 20px;
+    letter-spacing: 2.5px;
+}
+
+
+
+
+.floatLeft { width: 50%; float: left; }
+.floatRight { width: 50%; float: right; }
+.container { overflow: hidden; }
+
+
+
+div#fixedfooter {
+	font-size: 12px;
+	text-align: center;
+	position:fixed;
+
+	bottom:0px;
+	left:0px;
+	width:100%;
+	color:#BBBBBB;
+	background:#121212;
+	padding:3px;
+}
+
+
+
+
+
+
+.noUnderlineHype {
+	text-decoration: none; 
+	color: white;
+}
+
+.dateAndTime {
+	color: white;
+	font: 18px Arial; 
+	text-transform: uppercase;
+}
+
+
+
+body {
+
+	background-color: #000;
+
+ 	font: 15px Arial, sans-serif;
+
+ 	color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
